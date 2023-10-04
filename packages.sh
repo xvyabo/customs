@@ -6,7 +6,7 @@ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-rele
 
 # flatpak - flathub repo
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.spotify.Client com.mattjakeman.ExtensionManager
+flatpak install flathub com.spotify.Client com.mattjakeman.ExtensionManager com.github.Eloston.UngoogledChromium
 
 # dnf packages
 sudo dnf install -y fish gnome-tweaks discord steam VirtualBox akmod-nvidia xorg-x11-drv-nvidia
