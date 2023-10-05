@@ -13,3 +13,8 @@ flatpak install flathub com.spotify.Client com.mattjakeman.ExtensionManager com.
 
 # dnf packages
 sudo dnf install -y fish gnome-tweaks discord steam VirtualBox akmod-nvidia xorg-x11-drv-nvidia gh
+
+# nordvpn install
+bash
+sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
+fish
