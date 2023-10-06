@@ -9,12 +9,10 @@ sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.re
 
 # flatpak - flathub repo
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.spotify.Client com.mattjakeman.ExtensionManager com.github.Eloston.UngoogledChromium
+flatpak install flathub com.mattjakeman.ExtensionManager org.videolan.VLC com.simplenote.Simplenote
 
 # dnf packages
-sudo dnf install -y fish gnome-tweaks discord steam VirtualBox akmod-nvidia xorg-x11-drv-nvidia gh
+sudo dnf install -y zsh gnome-tweaks steam VirtualBox akmod-nvidia xorg-x11-drv-nvidia gh dconf-editor
 
 # nordvpn install
-bash
-sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
-fish
+sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh) && fish
