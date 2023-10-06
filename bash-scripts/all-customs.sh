@@ -30,4 +30,8 @@ cd /home/xvyabo/gnome-fedora-customs/bash-scripts
 ./gnome-extensions.sh
 cd /home/xvyabo/gnome-fedora-customs/bash-scripts
 
+# nano config file
+sudo ./nanorc.sh
+cd /home/xvyabo/gnome-fedora-customs/bash-scripts
+
 echo 'all customs done!!'
