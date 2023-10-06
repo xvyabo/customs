@@ -15,4 +15,4 @@ flatpak install flathub com.mattjakeman.ExtensionManager org.videolan.VLC com.si
 sudo dnf install -y zsh gnome-tweaks steam VirtualBox akmod-nvidia xorg-x11-drv-nvidia gh dconf-editor
 
 # nordvpn install
-sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh) && fish
+sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)

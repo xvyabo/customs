@@ -21,4 +21,4 @@ sudo echo 'alias flatrm="flatpak uninstall"' | cat >> /home/xvyabo/.zshrc
 sudo echo 'alias flatli="flatpak list"' | cat >> /home/xvyabo/.zshrc
 sudo echo 'alias flatsr="flatpak search"' | cat >> /home/xvyabo/.zshrc
 sudo echo 'alias flatup="flatpak update"' | cat >> /home/xvyabo/.zshrc
-echo 'done!'
+echo 'zsh aliases done!'
