@@ -335,3 +335,5 @@ include "/usr/share/nano/sh.nanorc"
 #bind ^U "{mark}{home}{zap}" main
 #bind ^Z undo main
 #bind ^Y redo main
+
+# HI, XVYABO!!

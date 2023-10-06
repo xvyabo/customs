@@ -12,7 +12,8 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install flathub com.mattjakeman.ExtensionManager org.videolan.VLC com.simplenote.Simplenote
 
 # dnf packages
-sudo dnf install -y zsh gnome-tweaks steam VirtualBox akmod-nvidia xorg-x11-drv-nvidia gh dconf-editor
+sudo dnf install -y zsh gnome-tweaks steam VirtualBox akmod-nvidia xorg-x11-drv-nvidia gh dconf-editor 
+google-noto-fonts-common
 
 # nordvpn install
 sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
